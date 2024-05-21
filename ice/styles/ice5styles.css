@@ -1,0 +1,17 @@
+body{
+    margin:0auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.hero-banner{
+    width: 100%;
+}
+
+.circle-pic{
+    border-radius: 50%;
+    border: 50px solid black;
+    scale: 70%;
+    
+    
+}
