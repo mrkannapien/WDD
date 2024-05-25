@@ -1,12 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #02DBB0  ;
+  --secondary-color: #0235DB ;
+  --accent1-color: #027ADB;
+  --accent2-color: #42C6DB;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Bebas Neue", sans-serif, serif;
+  --paragraph-font: "Poetsen One", sans-serif, serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #02DBB0;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #02BEDB; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #02DBB0  ;
+  --nav-link-color: white;
+  --nav-background-color: #0235DB;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+.home-title{
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+body {
+    background-color: white; 
+    color: black;
+    padding:0;
+    margin:0
+}
+
 #content{
     max-width: 1600px;
     margin:0 auto;
     color: black;
+    
+}
+
+h2{
+    margin:0;
 }
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding:35px
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -29,9 +72,8 @@ main section{
     color: black;
 }
 
-body {
-    background-color: white; 
-    color: black;
+.mountains{
+    margin:100px 0;
 }
 header {
     background-color:#02DBB0;
@@ -51,15 +93,25 @@ nav a:hover {
    background-color:#02dbcd;
    color: black;
    text-decoration: none;
+   padding: 15px 30px;
+   margin-top: 50px;
+   border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:black ;
 }
 .msg{
     background-color:#02BEDB;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px
 }
 footer{
     background-color:#02BEDB ;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:black;
@@ -74,9 +126,27 @@ footer a:hover{
 .icon, .logo {
     width: 80px;
 }
+.icon{
+    padding-top: 10px;
+}
  footer p a:hover {
     text-decoration: underline;
 }    
 footer p {
     font-size: 2em;
 }    
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #02DBB0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
