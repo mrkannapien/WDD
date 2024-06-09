@@ -1,7 +1,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr ;   
+    grid-template-columns: 1/3;
+    align-self: center; 
 }
 
 .tartsweet{
@@ -10,20 +11,19 @@
     grid-column: 1/3;
     justify-items: center;
 }
-.cherries{
+
+.cherries, .grey-square{
     text-align: center;
     color:maroon;
     font-size:5em;
     grid-column: 2/3;
-}
-.grey-square{
     background-color: grey;
-    grid-column: 2/3;
 }
+
 .cherries-pic{
 text-align: center;
 grid-column:1/2;
-grid-row: 1/3;
+grid: row 1px / 2px;
 }
 
 body{
