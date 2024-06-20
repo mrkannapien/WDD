@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    margin:0 auto;
+    border-radius: 10%;
+}
+.card{
+    width: 250px;
+    /* background-color: white; */
+    text-align: center;
+    margin:0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+
+}
+.headerimage{
+    width:100%;
+}
+.piratetext{
+    padding:10%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main{
+    background-color: white;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-self: center;
+    color:white;
+    font-size: smaller;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.first-box{
+    border-right:solid white 1px;
+}
+.second-box{
+    border-right:solid white 1px;
+}
+
+h5{
+    margin-top: 0;
+}
