@@ -121,7 +121,6 @@ nav a:hover {
 footer{
     background-color:#02BEDB ;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -207,6 +206,21 @@ main section img {
 .rapids-card{
     grid-column: 8/10;
     grid-row:2/3
+}
+
+#faq-vertical{
+    display:grid;
+    grid-template-columns:2fr 3fr 1fr ;
+    color:white;
+   
+}
+#faq-vertical-img{
+width: 100%;
+height:auto;
+}
+#faq-text{
+    grid-column:1/2;
+    margin-top: -730px;
 }
 
 @media screen and (max-width: 900px) {
