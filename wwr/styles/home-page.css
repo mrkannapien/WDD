@@ -33,11 +33,11 @@ body {
     background-color: white; 
     color: black;
     padding:0;
-    margin:0
+    margin:0 auto;
 }
 
 #content{
-    max-width: 1600px;
+    max-width: 100%;
     margin:0 auto;
     color: black;
     
@@ -50,7 +50,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
-    padding:35px
+    padding:35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -208,21 +208,40 @@ main section img {
     grid-row:2/3
 }
 
-#faq-vertical{
-    display:grid;
-    grid-template-columns:2fr 3fr 1fr ;
-    color:white;
-   
-}
-#faq-vertical-img{
-width: 100%;
-height:auto;
-}
-#faq-text{
-    grid-column:1/2;
-    margin-top: -730px;
+#faq-vertical {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: auto;
+    color: white;
 }
 
+#faq-vertical-img {
+    width: 100%;
+    height: auto;
+}
+#faq-text {
+    grid-column: 1 / 2;
+    margin-top: -850px;
+    font-size: 25px;
+}
+.faquestions {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    color: black;
+}
+#faq-small {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+}
+#faq-small-img {
+    width: 20%;
+    height: auto;
+    
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
