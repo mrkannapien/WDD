@@ -213,21 +213,26 @@ main section img {
     grid-template-columns: 2fr 3fr 1fr;
     grid-template-rows: auto;
     color: white;
+    
 }
 
 #faq-vertical-img {
     width: 100%;
-    height: auto;
+    height: 100%;
+   
 }
 #faq-text {
     grid-column: 1 / 2;
-    margin-top: -875px;
+    margin-top: -750px;
     font-size: 25px;
+    
+    
 }
 .faquestions {
     grid-column: 2 / 3;
     grid-row: 1;
     color: black;
+    padding-left: 20px;
 }
 #faq-small {
     grid-column: 3 / 4;
